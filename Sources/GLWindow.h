@@ -40,8 +40,8 @@ class GLView : public BGLView
 			GLView(BRect r, char *name, ulong resizingMode, ulong options, uint32 type);
 	void	AttachedToWindow();
 	void	FrameResized(float Width, float Height);
-	void	clearScreen();
 	void	drawTriangle(float Width, float Height);
+	void	clearScreen();
 };
 
 #endif //_MAINWINDOW_H
