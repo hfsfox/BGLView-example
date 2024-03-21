@@ -18,12 +18,6 @@ App::ArgvReceived(int32 argc, char **argv)
 	
 }
 
-void
-App::AboutRequested()
-{
-
-}
-
 bool
 App::QuitRequested()
 {

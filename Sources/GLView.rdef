@@ -25,7 +25,7 @@ resource app_version {
 	internal = 0,
 
 	short_info = "GLView",
-	long_info = "GLView"
+	long_info = "Simple native OpenGL view"
 };
 
 

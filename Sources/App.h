@@ -12,6 +12,5 @@ class App : public BApplication {
 		~App();
 		virtual	void				MessageReceived(BMessage* message);
 		virtual void				ArgvReceived(int32 argc, char **argv);
-		virtual void				AboutRequested();
 		virtual	bool				QuitRequested();
 };
