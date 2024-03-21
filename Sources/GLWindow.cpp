@@ -53,6 +53,7 @@ MainWindow::MainWindow(BRect frame, const char* title)
 		.Add(_BuildMenuBar())
 		.Add(fGLView)
 	.End();
+	GetLayout()->SetExplicitMinSize(BSize(320, 310));
 	SetPulseRate(1000000);
 	CenterOnScreen();
 }
