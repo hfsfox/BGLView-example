@@ -1,0 +1,9 @@
+SubDir Sources ;
+Main GLView :
+
+	App.cpp
+	GLWindow.cpp
+	
+;
+
+LINKLIBS on GLView = -lbe -lgame -llocalestub -lGL -lstdc++ ;
